@@ -12,7 +12,6 @@ import { authCheck } from "../redux/AuthActionCreator";
 
 
 const mapStateToProps = state => {
-
     return {
         token: state.token,
     }
